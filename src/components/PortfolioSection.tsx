@@ -7,45 +7,13 @@ import artwork5 from "@/assets/artwork-5.jpg";
 const artworks = [
   {
     id: 1,
-    title: "Fragmentos del Alma",
-    year: "2024",
-    medium: "Óleo y hoja de oro sobre lienzo",
-    dimensions: "180 × 240 cm",
+    title: "title",
+    year: "year",
+    medium: "tecnica",
+    dimensions: "dim",
     image: artwork1,
     featured: true,
-  },
-  {
-    id: 2,
-    title: "Dualidad Eterna",
-    year: "2023",
-    medium: "Escultura en bronce y mármol",
-    dimensions: "95 × 45 × 45 cm",
-    image: artwork2,
-  },
-  {
-    id: 3,
-    title: "Susurros del Tiempo",
-    year: "2023",
-    medium: "Acuarela sobre papel",
-    dimensions: "76 × 76 cm",
-    image: artwork3,
-  },
-  {
-    id: 4,
-    title: "Memoria Dorada",
-    year: "2022",
-    medium: "Técnica mixta y hoja de oro",
-    dimensions: "120 × 100 cm",
-    image: artwork4,
-  },
-  {
-    id: 5,
-    title: "Horizonte Interior",
-    year: "2022",
-    medium: "Óleo sobre lienzo",
-    dimensions: "150 × 150 cm",
-    image: artwork5,
-  },
+  }
 ];
 
 const PortfolioSection = () => {

@@ -35,7 +35,7 @@ const Navigation = () => {
             href="#"
             className="font-serif text-xl md:text-2xl font-light tracking-wide"
           >
-            Elena Mendoza
+            Hans Schlechter
           </a>
 
           {/* Desktop Navigation */}

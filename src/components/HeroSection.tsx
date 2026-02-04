@@ -16,13 +16,13 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <p className="font-sans text-sm md:text-base tracking-[0.3em] uppercase text-muted-foreground mb-6 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-          Artista Contemporánea
+          Artista Visual
         </p>
         <h1 className="gallery-title text-foreground mb-8 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-          Elena Mendoza
+          Hans Schlechter
         </h1>
         <p className="gallery-subtitle mb-12 animate-fade-up" style={{ animationDelay: "0.6s" }}>
-          Explorando las fronteras entre lo abstracto y lo emocional
+          xxx
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.8s" }}>
           <a

@@ -22,14 +22,14 @@ const ContactSection = () => {
             {/* Contact info */}
             <div className="space-y-6">
               <a
-                href="mailto:contacto@elenamendoza.art"
+                href="mailto:hwschlec@gmail.com"
                 className="flex items-center gap-4 group"
               >
                 <div className="w-12 h-12 border border-background/30 flex items-center justify-center group-hover:bg-background group-hover:text-foreground transition-colors duration-300">
                   <Mail className="w-5 h-5" />
                 </div>
                 <span className="font-sans text-background/80 group-hover:text-background transition-colors">
-                  contacto@elenamendoza.art
+                  hwschlec@gmail.com
                 </span>
               </a>
 
@@ -43,7 +43,7 @@ const ContactSection = () => {
                   <Instagram className="w-5 h-5" />
                 </div>
                 <span className="font-sans text-background/80 group-hover:text-background transition-colors">
-                  @elenamendoza.art
+                  @hansw.s
                 </span>
               </a>
 
@@ -52,7 +52,7 @@ const ContactSection = () => {
                   <MapPin className="w-5 h-5" />
                 </div>
                 <span className="font-sans text-background/80">
-                  Barcelona, España
+                  Santiago, Chile
                 </span>
               </div>
             </div>
@@ -62,10 +62,10 @@ const ContactSection = () => {
           <div className="flex items-center">
             <blockquote className="border-l-2 border-accent pl-8">
               <p className="font-serif text-2xl md:text-3xl lg:text-4xl font-light italic leading-relaxed text-background/90 mb-6">
-                "El arte no reproduce lo visible, sino que hace visible lo invisible"
+                "xxx"
               </p>
               <cite className="font-sans text-sm tracking-widest uppercase text-background/50 not-italic">
-                — Paul Klee
+                — xxx
               </cite>
             </blockquote>
           </div>
@@ -74,7 +74,7 @@ const ContactSection = () => {
         {/* Footer */}
         <div className="mt-24 pt-12 border-t border-background/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="font-sans text-sm text-background/50">
-            © 2024 Elena Mendoza. Todos los derechos reservados.
+            © 2026 Hans Schlechter. Todos los derechos reservados.
           </p>
           <nav className="flex gap-8">
             <a href="#" className="font-sans text-sm text-background/50 hover:text-background transition-colors">

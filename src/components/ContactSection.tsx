@@ -34,7 +34,7 @@ const ContactSection = () => {
               </a>
 
               <a
-                href="https://instagram.com/elenamendoza.art"
+                href="https://instagram.com/hansw.s"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 group"

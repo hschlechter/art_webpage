@@ -7,16 +7,11 @@ const ContactSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-24">
           {/* Left column */}
           <div>
-            <p className="font-sans text-sm tracking-[0.3em] uppercase text-background/60 mb-4">
+            <h2 className="font-serif text-3xl md:text-4xl font-light mb-8">
               Contacto
-            </p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-light mb-8">
-              Hablemos de arte
             </h2>
-            <p className="font-sans text-lg leading-relaxed text-background/70 mb-12">
-              Para consultas sobre obras disponibles, encargos o colaboraciones, 
-              no dudes en ponerte en contacto. Cada conversación es el inicio 
-              de una nueva posibilidad creativa.
+            <p className="font-sans text-base leading-relaxed text-background/80 mb-8">
+              Para consultas, encargos o colaboraciones.
             </p>
 
             {/* Contact info */}
@@ -58,17 +53,8 @@ const ContactSection = () => {
             </div>
           </div>
 
-          {/* Right column - Quote */}
-          <div className="flex items-center">
-            <blockquote className="border-l-2 border-accent pl-8">
-              <p className="font-serif text-2xl md:text-3xl lg:text-4xl font-light italic leading-relaxed text-background/90 mb-6">
-                "xxx"
-              </p>
-              <cite className="font-sans text-sm tracking-widest uppercase text-background/50 not-italic">
-                — xxx
-              </cite>
-            </blockquote>
-          </div>
+          {/* Right column - Empty */}
+          <div />
         </div>
 
         {/* Footer */}

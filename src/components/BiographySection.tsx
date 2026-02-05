@@ -6,52 +6,26 @@ const BiographySection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
           {/* Portrait */}
-          <div className="relative">
-            <div className="aspect-[4/5] overflow-hidden">
-              <img
-                src={artistPortrait}
-                alt="XXX"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-              />
-            </div>
-            {/* Decorative element */}
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-accent/30 -z-10" />
+          <div className="aspect-[4/5] overflow-hidden">
+            <img
+              src={artistPortrait}
+              alt="Hans Schlechter"
+              className="w-full h-full object-cover"
+            />
           </div>
 
           {/* Biography content */}
-          <div className="lg:pl-8">
-            <p className="font-sans text-sm tracking-[0.3em] uppercase text-accent mb-4">
-              Sobre el Artista
-            </p>
-            <h2 className="gallery-title text-3xl md:text-4xl lg:text-5xl mb-8">
+          <div>
+            <h2 className="gallery-title text-3xl md:text-4xl mb-6">
               Hans Schlechter
             </h2>
-            <div className="space-y-6 gallery-body">
+            <div className="space-y-4 gallery-body text-base leading-relaxed">
               <p>
-                Lorem ipsum.
+                Artista visual contemporáneo dedicado a la exploración de nuevas formas de expresión visual.
               </p>
               <p>
-                Lorem ipsum.
+                Su trabajo busca crear un diálogo entre la forma y el espacio, generando experiencias visuales que invitan a la reflexión.
               </p>
-              <p>
-                Lorem ipsum.
-              </p>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-border">
-              <div>
-                <span className="block font-serif text-3xl md:text-4xl text-accent">xxx</span>
-                <span className="font-sans text-sm text-muted-foreground">xxx</span>
-              </div>
-              <div>
-                <span className="block font-serif text-3xl md:text-4xl text-accent">xxx</span>
-                <span className="font-sans text-sm text-muted-foreground">xxx</span>
-              </div>
-              <div>
-                <span className="block font-serif text-3xl md:text-4xl text-accent">xxx</span>
-                <span className="font-sans text-sm text-muted-foreground">xxx</span>
-              </div>
             </div>
           </div>
         </div>

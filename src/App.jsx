@@ -50,8 +50,8 @@ const App = () => {
       {/* Header Compacto - Fijo a la izquierda en desktop o arriba en móvil */}
       <header className="px-4 py-6 md:px-8 md:py-8 border-b border-black md:border-b-0 md:fixed md:left-0 md:top-0 md:w-64 md:h-screen md:border-r md:flex md:flex-col justify-between z-10 bg-white">
         <div>
-          <h1 className="text-xl font-bold tracking-tight mb-1">NOMBRE ARTISTA</h1>
-          <p className="text-xs text-gray-500 font-mono mb-8">Ciudad, País — Est. 1995</p>
+          <h1 className="text-xl font-bold tracking-tight mb-1">HANS SCHLECHTER</h1>
+          <p className="text-xs text-gray-500 font-mono mb-8">Santiago, Chile — Est. 2026</p>
 
           <nav className="space-y-1">
             <button 
@@ -78,13 +78,13 @@ const App = () => {
         <div className="hidden md:block">
           <div className="text-xs text-gray-400 space-y-1">
             <a href="#" className="flex items-center gap-1 hover:text-black hover:underline">
-              <Instagram size={12} /> @usuario_insta
+              <Instagram size={12} /> @hansw.s
             </a>
             <a href="#" className="flex items-center gap-1 hover:text-black hover:underline">
-              <Mail size={12} /> contacto@email.com
+              <Mail size={12} /> hwschlec@gmail.com
             </a>
           </div>
-          <p className="text-[10px] text-gray-300 mt-4">© 2024. Todos los derechos reservados.</p>
+          <p className="text-[10px] text-gray-300 mt-4">© 2026. Todos los derechos reservados.</p>
         </div>
       </header>
 

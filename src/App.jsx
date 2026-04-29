@@ -37,7 +37,7 @@ const App = () => {
     ? works 
     : works.filter(work => work.category === filter);
 
-  const categories = ['todos', 'Pintura', 'Escultura', 'Fotografía', 'Dibujo'];
+  const categories = ['todos', 'Pintura', 'Grabado', 'Dibujo', 'Otros'];
 
   return (
     <div className="min-h-screen bg-white text-black font-sans selection:bg-black selection:text-white">
@@ -72,10 +72,10 @@ const App = () => {
 
         <div className="hidden md:block">
           <div className="text-xs text-gray-400 space-y-1">
-            <a href="#" className="flex items-center gap-1 hover:text-black hover:underline">
+            <a href="https://www.instagram.com/hansw.s" className="flex items-center gap-1 hover:text-black hover:underline">
               <Instagram size={12} /> @hansw.s
             </a>
-            <a href="#" className="flex items-center gap-1 hover:text-black hover:underline">
+            <a href="mailto:hwschlec@gmail.com" className="flex items-center gap-1 hover:text-black hover:underline">
               <Mail size={12} /> hwschlec@gmail.com
             </a>
           </div>
@@ -123,9 +123,7 @@ const App = () => {
               <p>
                   Lorem ipsum dolor sic amet.
               </p>
-              <p>
-                  Lorem ipsum dolor sic amet.
-              </p>
+             
             </div>
 
             <h2 className="text-lg font-bold mt-8 mb-4">Trayectoria</h2>

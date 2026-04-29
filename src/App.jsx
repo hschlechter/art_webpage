@@ -30,12 +30,7 @@ const App = () => {
 
   // Datos de ejemplo
   const works = [
-    { id: 1, title: "Estudio de Luz Nº 4", category: "Pintura", year: "2024", dimensions: "120x100cm" },
-    { id: 2, title: "Resistencia Material", category: "Escultura", year: "2023", dimensions: "Variable" },
-    { id: 3, title: "Sin Título (Azul)", category: "Pintura", year: "2024", dimensions: "80x80cm" },
-    { id: 4, title: "Fragmentos Urbanos", category: "Fotografía", year: "2023", dimensions: "Impresión Giclée" },
-    { id: 5, title: "Estructura Ósea", category: "Dibujo", year: "2022", dimensions: "Papel Algodón" },
-    { id: 6, title: "Intervención 01", category: "Instalación", year: "2024", dimensions: "Sitio Específico" },
+    { id: 1, title: "Lorem Ipsum", category: "Pintura", year: "2026", dimensions: "120x100cm" },
   ];
 
   const filteredWorks = filter === 'todos' 
@@ -126,30 +121,26 @@ const App = () => {
             <h2 className="text-lg font-bold mb-4">Declaración de Artista</h2>
             <div className="space-y-4 text-sm leading-relaxed text-gray-800 text-justify">
               <p>
-                Mi trabajo explora la relación entre la estructura arquitectónica y la memoria orgánica. A través de la pintura y la instalación, investigo cómo los espacios que habitamos retienen fragmentos de historia personal y colectiva, creando una arqueología visual del presente.
+                  Lorem ipsum dolor sic amet.
               </p>
               <p>
-                Utilizando materiales industriales en contraste con pigmentos naturales, busco generar una tensión visual que cuestione la permanencia. No busco representar la realidad, sino descomponerla en sus elementos fundamentales: luz, materia y vacío.
+                  Lorem ipsum dolor sic amet.
               </p>
             </div>
 
             <h2 className="text-lg font-bold mt-8 mb-4">Trayectoria</h2>
             <ul className="text-sm space-y-2 text-gray-600">
               <li className="grid grid-cols-[60px_1fr]">
-                <span className="font-mono text-gray-400">2023</span>
-                <span>Exposición Individual, "Ecos de Materia", Galería Central.</span>
+                <span className="font-mono text-gray-400">2026</span>
+                <span>Exposición Colectiva, "Nuevos Talentos", Factor F.</span>
               </li>
               <li className="grid grid-cols-[60px_1fr]">
-                <span className="font-mono text-gray-400">2022</span>
-                <span>Residencia Artística, Centro de Artes Contemporáneas, Ciudad de México.</span>
+                <span className="font-mono text-gray-400">2025</span>
+                <span>Exposición Colectiva, "Feria Aparte 2025", Ex Cervecería Ebner.</span>
               </li>
               <li className="grid grid-cols-[60px_1fr]">
-                <span className="font-mono text-gray-400">2021</span>
-                <span>Selección Oficial, Bienal de Arte Joven.</span>
-              </li>
-               <li className="grid grid-cols-[60px_1fr]">
-                <span className="font-mono text-gray-400">2019</span>
-                <span>Licenciatura en Artes Visuales, Universidad Nacional.</span>
+                <span className="font-mono text-gray-400">2025</span>
+                <span>Diplomado en Arte, mención Pintura. P. Universidad Católica de Chile.</span>
               </li>
             </ul>
 
@@ -170,15 +161,6 @@ const App = () => {
                 <div>
                     <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">Consultas Generales</p>
                     <a href="mailto:hola@artista.com" className="text-xl hover:underline">hola@artista.com</a>
-                </div>
-                <div>
-                    <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">Galería / Representación</p>
-                    <p className="text-lg">Galería Ejemplo</p>
-                    <a href="mailto:info@galeria.com" className="text-sm text-gray-600 hover:underline">info@galeria.com</a>
-                </div>
-                 <div>
-                    <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">Estudio</p>
-                    <p className="text-sm text-gray-600">Calle del Arte 123, Of. 4B<br/>Santiago, Chile</p>
                 </div>
              </div>
           </div>
